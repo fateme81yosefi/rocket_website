@@ -1,16 +1,28 @@
 html{
     font-family: Vazir;
+    background-color: #007bff;
+}
+*{
+    font-family: Vazir;
+    text-align: right !important;
 }
 .heder-title{
     background-image: url("https://www.pngitem.com/pimgs/m/222-2221750_background-for-site-png-transparent-png.png");
     text-align: center;
     padding: 1%;
+    font-family: Vazir;
+
+}
+.line-spacing{
+    line-height : 200%;
 }
 .section-header-1{
    background:#f5f6fa;
     display: flex;
     flex-direction: row;
     color: #575557;
+    font-family: Vazir;
+
 }
 .section-header-2{
     background-color: #2c2c54;
@@ -18,10 +30,13 @@ html{
     display: flex;
     flex-direction: row;
     color: #fcfafc;
+    font-family: Vazir;
+
 }
 .h-title{
     padding: .6%;
     padding-top: 2%;
+    font-family: Vazir;
 
     padding-left: 2%;
     padding-right: 2%;
@@ -29,8 +44,12 @@ html{
 .h-title:hover{
     background-color: #7f8fa6;
     color: white;
-}
+    font-family: Vazir;
 
+}
+body{
+    background-color: #e6f3f3!important;
+}
 .header {
     text-align: center;
     display: flex;
@@ -39,13 +58,15 @@ html{
     background: linear-gradient(#E0EAFC, #CFDEF3);
     justify-content: center;
     padding: 1%;
+    font-family: Vazir;
+
 }
 .btn_search{
     padding: 3%;
     padding-top:0;
     padding-bottom:.5% ;
     background-color: #2c2c54;
-    color: white;
+    color: white !important;
     font-family: Vazir;
 }
 h6{
@@ -58,6 +79,8 @@ h6{
     padding: 3%;
     padding-left: 28%;
     padding-right:24%;
+    font-family: Vazir;
+
     margin-top: 0%;
     background-color: #f5f6fa;
 }
@@ -70,7 +93,9 @@ h6{
     border-radius: 45px;
 }
 .tozihat{
-    background: linear-gradient(#654ea3,#1CB5E0,#eaafc8,#000046);
+    background: #bdc2de;
+    font-family: Vazir;
+
 }
 .image{
     display: none;
@@ -78,17 +103,23 @@ h6{
 .paragraph_tozih{
     padding: 3%;
     padding-right: 7%;
+    font-family: Vazir;
+
 }
 .body1{
-background-color: #718093;
+background-color: #E3F2FD;
     display: flex;
+    font-family: Vazir;
+    background-color: azure;
     flex-direction: row;
 }
 .title{
     margin-top: 1%;
     padding: 2%;
+    font-family: Vazir;
+
     padding-top: .1%;
-    background-color: #718093;
+    background-color: #E3F2FD;
 }
 .img{
     width: 90%;
@@ -105,31 +136,43 @@ background-color: #718093;
     text-align: center;
     padding: 3%;
     padding-left: 15%;
+    font-family: Vazir;
+
+}
+.title3{
+    background-color: #E3F2FD;
 }
 .body2{
     /*background-image: url("https://cdn.wallpapersafari.com/14/4/aWeKrQ.jpg");*/
-    background-color: #487eb0;
+    background-color: #eaf8fa;
     display: flex;
     flex-direction: row;
+    font-family: Vazir;
+
 }
 .title2{
     margin-top: 1%;
     padding: 2%;
     padding-top: .1%;
-    background-color: #487eb0;
+    background-color: #E3F2FD;
+    font-family: Vazir;
+
 }
 .box{
     padding: 2%;
     margin: 2%;
-    border: 9px solid #0a1a82;
+    border: 1px solid #CFD8DC;
     border-radius: 8%;
-
+    line-height : 200%;
+    font-family: Vazir;
 }
 .boxx{
+    line-height : 200%;
     padding: 2%;
     margin: 2%;
-    border: 9px solid #990505;
+    border: 2px solid #CFD8DC;
     border-radius: 8%;
+    font-family: Vazir;
 }
 .box1{
     background:#f1f2f6;
@@ -160,9 +203,12 @@ background-color: #718093;
     color: #fcf9fc;
     margin-top: 0;
     padding: 2%;
+    font-family: Vazir;
+
 }
 
 .footer{
+    font-family: Vazir;
     background-color: #2c2c54;
     color: white;
     display: flex;
@@ -173,13 +219,17 @@ background-color: #718093;
 .boxxx{
     margin: 3%;
 }
-
+.kadr{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px #c5c2c2 solid;
+    border-radius: 4px;
+}
 .butn{
-    background: linear-gradient(#000046,#004e92);
+    background: linear-gradient(#060658,#0e3a6a);
     margin: 2%;
     padding: 5%;
     box-shadow: 5px 10px #888888;
-    font-weight: bold;
     font-family: Vazir;
     color: white;
 
@@ -195,6 +245,8 @@ background-color: #718093;
     /*grid-template-columns: 24% 24% 45%;*/
     /*grid-gap: 2%;*/
     padding: 5%;
+    font-family: Vazir;
+
 }
 .light{
     background-color: #9edee2;
@@ -207,27 +259,52 @@ background-color: #718093;
     color: white;
     border-radius: 15px;
     margin-top: 5%;
+    font-family: Vazir;
+
 }
 .bboox1{
     background-color: #c7ecee;
     padding: 9%;
     border-radius: 15px;
     margin-top: 5%;
+    font-family: Vazir;
+
 }
 .end_btn{
     background-color: #9edee2;
     padding: 5%;
     border-radius: 15px;
+    color: #1d2124;
+    font-weight: bold;
     font-family: Vazir;
     font-size: medium;
+    font-family: Vazir;
+
 }
 .searchBar{
     display: flex;
     flex-direction: row;
+    font-family: Vazir;
+
 }
+.btn{
+    color: white !important;
+}
+.btn_header:hover{
+    background-color: #43436e;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.51);
+}
+.butn:hover{
+    background: linear-gradient(#121270, #124985);
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.67);
+}
+.end_btn:hover{
+    background-color: #a9d7da;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.67);
+    text-shadow: 2px 5px 30px rgba(0, 0, 0, 0.78);
+}
+
 @media only screen and (min-width: 400px){
-
-
     .heder-title{
         right: 0;
     }
